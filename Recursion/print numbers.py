@@ -17,7 +17,7 @@ def desc_print(n):
 
 if __name__ == "__main__":
     n = int(input("Enter number: "))
-    i = int(input("Enter Your Choice \n 1. Ascending Order \n 2. Descending Order"))
+    i = int(input("Enter Your Choice \n 1. Ascending Order \n 2. Descending Order\n"))
     
     if(i==1):
         asc_print(n)
